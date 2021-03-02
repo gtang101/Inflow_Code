@@ -1,0 +1,44 @@
+.top-navigation{
+    position: sticky;
+}
+
+.bottom-navigation{
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+}
+
+.content-box{
+    overflow-y: auto;
+    height: auto;
+}
+
+/* Home */
+.card-flash{
+    height: 200px;
+}
+
+.side-scroll{
+    overflow-x: hidden;
+}
+
+.smallCard{
+    height: 100px;
+    width: 100px;
+    border: solid black 1px;
+    margin-left: 32px;
+    flex: 0 0 auto;
+}
+
+/* Forum */
+
+.avatar-box{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.card-header{
+    padding: 15px;
+}
