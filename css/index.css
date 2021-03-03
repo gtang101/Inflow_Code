@@ -1,3 +1,5 @@
+/* Navigation */
+
 .top-navigation{
     position: sticky;
 }
@@ -6,6 +8,10 @@
     position: absolute;
     bottom: 0;
     background-color: white;
+}
+
+.bottom-navigation a{
+    color: black;
 }
 
 /* FAB */
@@ -60,6 +66,14 @@
 }
 
 /* Setting */
+
+#setting-screen{
+    background: white;
+    position: absolute;
+    top: 24px;
+    height: 665px;
+}
+
 .setting-top h3{
     padding-left: 25%;
 }
