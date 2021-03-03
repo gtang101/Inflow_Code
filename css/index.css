@@ -8,9 +8,14 @@
     background-color: white;
 }
 
-.content-box{
-    overflow-y: auto;
-    height: auto;
+/* FAB */
+.FAB{
+    height: 55px;
+    width: 55px;
+    position: absolute;
+    z-index: 999;
+    bottom: 100px;
+    right: 15px;
 }
 
 /* Home */
@@ -41,4 +46,20 @@
 
 .card-header{
     padding: 15px;
+}
+
+.forum-display{
+    
+}
+
+/* Profile */
+
+.profile-tab{
+    flex: 1;
+    text-align: center;
+}
+
+/* Setting */
+.setting-top h3{
+    padding-left: 25%;
 }
