@@ -7,11 +7,10 @@
 .bottom-navigation{
     position: absolute;
     bottom: 0;
-    background-color: white;
 }
 
 .bottom-navigation a{
-    color: black;
+    color: var(--text);
 }
 
 /* FAB */
@@ -36,7 +35,7 @@
 .smallCard{
     height: 100px;
     width: 100px;
-    border: solid black 1px;
+    border: solid var(--text) 1px;
     margin-left: 32px;
     flex: 0 0 auto;
 }
@@ -54,10 +53,6 @@
     padding: 15px;
 }
 
-.forum-display{
-    
-}
-
 /* Profile */
 
 .profile-tab{
@@ -68,7 +63,6 @@
 /* Setting */
 
 #setting-screen{
-    background: white;
     position: absolute;
     top: 24px;
     height: 665px;
