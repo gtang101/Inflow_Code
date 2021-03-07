@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30.718" height="28.278" viewBox="0 0 30.718 28.278">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#01609a" stop-opacity="0.545"/>
+      <stop offset="0.03" stop-color="#02619b" stop-opacity="0.537"/>
+      <stop offset="1" stop-color="#1271ac"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_282" data-name="Group 282" transform="translate(6083.855 -8604.045)">
+    <path id="Path_385" data-name="Path 385" d="M-8427.508,7163.4c-6.138-.368-10.4.247-15.064,4.977a13.22,13.22,0,0,0-2.653,14.289c1.445,3.054,5.06,7.594,9.806,8.636s12.545-.9,15.283-3.265,4.993-7.56,4.538-12.471S-8421.371,7163.77-8427.508,7163.4Z" transform="translate(2362.402 1440.731)" fill="url(#radial-gradient)"/>
+    <path id="Path_399" data-name="Path 399" d="M-8423.941,7377.3h3.7" transform="translate(2350.222 1238.044)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2" style="mix-blend-mode: multiply;isolation: isolate"/>
+    <path id="Path_400" data-name="Path 400" d="M-8423.941,7377.3h3.354" transform="translate(2358.674 1238.044)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2" style="mix-blend-mode: multiply;isolation: isolate"/>
+    <path id="Path_401" data-name="Path 401" d="M-8426.458,7389.214a61.065,61.065,0,0,1,6.552,0c1.144.231,9.174,0,9.174,0" transform="translate(2350.675 1232.037)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2.5" style="mix-blend-mode: multiply;isolation: isolate"/>
+  </g>
+</svg>

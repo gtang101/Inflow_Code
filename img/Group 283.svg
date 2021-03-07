@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30.474" height="28.416" viewBox="0 0 30.474 28.416">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ea8b09" stop-opacity="0.392"/>
+      <stop offset="1" stop-color="#ea8b09"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_283" data-name="Group 283" transform="translate(-2881.818 -2079)">
+    <path id="Path_386" data-name="Path 386" d="M-8427.657,7163.4c-6.089-.37-10.322.248-14.945,5a13.414,13.414,0,0,0-2.631,14.359c1.433,3.069,5.018,7.631,9.728,8.677s12.444-.906,15.161-3.281,4.952-7.6,4.5-12.532S-8421.569,7163.773-8427.657,7163.4Z" transform="translate(11328.077 -5084.315)" fill="url(#radial-gradient)"/>
+    <path id="Path_402" data-name="Path 402" d="M-8418.47,7478.274a3.485,3.485,0,0,1,1.835-1,2.006,2.006,0,0,1,1.944,1" transform="translate(11309.399 -5388.816)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5" style="mix-blend-mode: multiply;isolation: isolate"/>
+    <path id="Path_404" data-name="Path 404" d="M-8414.69,7478.274a3.485,3.485,0,0,0-1.835-1,2.006,2.006,0,0,0-1.944,1" transform="translate(11318.647 -5388.816)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5" style="mix-blend-mode: multiply;isolation: isolate"/>
+    <path id="Path_406" data-name="Path 406" d="M-8421.026,7491.459a11.945,11.945,0,0,1,6.737-2.357,11.718,11.718,0,0,1,7.509,2.357" transform="translate(11311.603 -5394.796)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2.5" style="mix-blend-mode: multiply;isolation: isolate"/>
+  </g>
+</svg>

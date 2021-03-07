@@ -2,10 +2,12 @@
 
 .top-navigation{
     position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .bottom-navigation{
-    position: absolute;
+    position: sticky;
     bottom: 0;
 }
 
@@ -13,19 +15,55 @@
     color: var(--text);
 }
 
+.bottom-navigation a:hover{
+    text-decoration: none;
+    color: var(--accent);
+}
+
+.bottom-navigation a:active{
+    color: var(--accent);
+}
+
+.material-icons{
+    padding: 8px;
+}
+
+/* Search */
+.form-control{
+    background-color: #e9ecef;
+    border: none;
+}
+
+.input-group-text{
+    border: none;
+}
+
 /* FAB */
+
 .FAB{
     height: 55px;
     width: 55px;
     position: absolute;
-    z-index: 999;
-    bottom: 100px;
+    z-index: 1;
+    bottom: 200px;
     right: 15px;
+    background-color: var(--accent);
+    border-color: var(--accent);
 }
 
 /* Home */
 .card-flash{
-    height: 200px;
+    height: 240px;
+    background-image: url("../img/Group\ 104.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8px;
+    color: black;
+}
+
+.card-flash h2{
+    font-family: 'Raleway';
+    font-style: bold;
 }
 
 .side-scroll{
@@ -33,12 +71,79 @@
 }
 
 .smallCard{
-    height: 100px;
-    width: 100px;
-    border: solid var(--text) 1px;
-    margin-left: 32px;
+    height: 148px;
+    width: 154px;
+    margin-left: 16px;
+    padding: 8px;
     flex: 0 0 auto;
+    color: black;
 }
+
+.smallCard h3{
+    font-family: 'Raleway';
+    font-weight: bold;
+    position: relative;
+    top: 90px;
+}
+
+.smallCard .bi-bookmark{
+    position: relative;
+    float: right;
+}
+
+#anxietyTrigger{
+    background-image: url("../img/Group\ 304.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#depressionSign{
+    background-image: url("../img/Group\ 285.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#stressDown{
+    background-image: url("../img/Group\ 303.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#meditationMonday{
+    background-image: url("../img/Group\ 101.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#thoughtUnravel{
+    background-image: url("../img/Group\ 286.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#stigmaFight{
+    background-image: url("../img/Group\ 241.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topicSelect{
+    height: 47px;
+    min-width: 162px;
+    background-color: var(--accent);
+    margin: auto;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+.topicSelect p{
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 17px;
+}
+
 
 /* Forum */
 
@@ -53,6 +158,18 @@
     padding: 15px;
 }
 
+.forum-card p{
+    color: var(--dark-text);
+}
+
+.icons .bi{
+    padding: 8px;
+}
+
+#aiden{
+    background-image: url(/img/Mask\ Group\ 12.png);
+}
+
 /* Profile */
 
 .profile-tab{
@@ -60,14 +177,24 @@
     text-align: center;
 }
 
+.journal-display .card-body{
+    min-height: 100px;
+    color: #1B1B1B;
+}
+
+#thirtyCard{
+    background-image: linear-gradient( rgba(234,139,9,0.5), rgba(234,139,9,0.1));
+}
+
 /* Setting */
 
 #setting-screen{
     position: absolute;
-    top: 24px;
-    height: 665px;
+    top: 40px;
+    height: 100vh;
 }
 
-.setting-top h3{
-    padding-left: 25%;
+.setting-top h2{
+    position: relative;
+    left: 110px;
 }

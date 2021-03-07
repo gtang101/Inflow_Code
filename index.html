@@ -7,244 +7,282 @@
     <title>Dashboard</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" type="text/css" href="css/master.css">
     <link rel="stylesheet" type="text/css" href="css/dark-mode.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
-    <div class="smartphone bg-white">
-
-        <!-- Status Bar -->
-        <div class="container-fluid top-navigation border">
-            <div class="row">
-                <div class="col-12 d-flex justify-content-between">
-                    <div class="stt-bar-time">
-                        <p>21:21</p>
-                    </div>
-                    <div class="stt-bar-icon">
-                        <i class="bi bi-reception-4"></i><i class="bi bi-wifi"></i><i class="bi bi-battery-half"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Bottom Navigation -->
-        <div class="container-fluid bottom-navigation border bg-white">
-            <div class="row">
-                <div class="col-12 d-flex justify-content-between">
-                    
-                    <div id="home">
-                    	<a class="d-flex flex-column align-items-center" data-toggle="tab" href="#home-screen">
-                            <i class="bi bi-house-door-fill bigger-icon"></i>
-                            <h6>Home</h6>
-                        </a>
-                    </div>
-        
-                    <div id="forum">
-                        <a class="d-flex flex-column align-items-center" data-toggle="tab" href="#forum-screen">
-                            <i class="bi bi-book-fill bigger-icon"></i>
-                            <h6>Forum</h6>
-                        </a>
-                    </div>
-                    <div id="chat">
-                        <a class="d-flex flex-column align-items-center" data-toggle="tab" href=#>
-                            <i class="bi bi-chat-dots-fill bigger-icon"></i>
-                            <h6>Chat</h6>
-                        </a>
-                    </div>
-                    <div id="profile">
-                        <a class="d-flex flex-column align-items-center" data-toggle="tab" href="#profile-screen">
-                            <i class="bi bi-bug-fill bigger-icon"></i>
-                            <h6>Profile</h6>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Content -->
-
-            <div class="tab-content">
-                <!-- Home -->
-                <div id="home-screen" class="container-fluid content-box tab-pane active bg-white">
-                    <!-- Top Navigation -->
-                    <div class="row">
-                        <div class="col-12 d-flex justify-content-between border">
-                            <i class="bi bi-gear-fill bigger-icon"></i>
-                            <h3>Inflow</h3>
-                            <i class="bi bi-bell-fill bigger-icon"></i>
+        <div class="phoneScreen">
+            <!-- Status Bar -->
+            <div class="container-fluid top-navigation bg-light py-2">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-between">
+                        <div class="stt-bar-time">
+                            <p>21:21</p>
+                        </div>
+                        <div class="stt-bar-icon">
+                            <i class="bi bi-reception-4"></i><i class="bi bi-wifi"></i><i class="bi bi-battery-half"></i>
                         </div>
                     </div>
-                    <!-- Search -->
-                    <div class="row my-3 search-bar">
-                        <div class="col-12">
-                            <form>
-                                <div class="input-group mb-3">
-                                  <div class="input-group-prepend">
-                                    <span class="input-group-text"><i class="bi bi-search"></i></span>
-                                  </div>
-                                  <input type="text" class="form-control" placeholder="Explore our library">
+                </div>
+            </div>
+            
+            <!-- Content -->
+                <div class="tab-content">
+                    <!-- Home -->
+                    <div id="home-screen" class="container-fluid content-box tab-pane active bg-light">
+                        <!-- Top Navigation -->
+                        <div class="row">
+                            <div class="col-12 d-flex justify-content-between">
+                                <i class="bi bi-gear-fill bigger-icon"></i>
+                                <h2 class="logo">Inflow</h2>
+                                <i class="bi bi-bell-fill bigger-icon"></i>
+                            </div>
+                        </div>
+                        <!-- Search -->
+                        <div class="row my-3 search-bar">
+                            <div class="col-12">
+                                <form>
+                                    <div class="input-group mb-3">
+                                      <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="bi bi-search"></i></span>
+                                      </div>
+                                      <input type="text" class="form-control" placeholder="Explore our library">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- Flash -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div id="mind-matter" class="card card-flash d-flex flex-column justify-content-end">
+                                    <h2>Mind Matters</h2>
                                 </div>
-                            </form>
-                        </div>
-                    </div>
-                    <!-- Flash -->
-                    <div class="row">
-                        <div class="col-12">
-                            <div id="mind-matter" class="card card-flash d-flex flex-column justify-content-end">
-                                <h2>Mind Matters</h2>
                             </div>
                         </div>
-                    </div>
-                    <!-- Curated For You -->
-                    <div class="row mt-3">
-                        <div class="col-12 d-flex justify-content-between align-items-center">
-                            <h3>Curated For You</h3>
-                            <a href=#><p>More></p></a>
+                        <!-- Curated For You -->
+                        <div class="row mt-3">
+                            <div class="col-12 d-flex justify-content-between align-items-center">
+                                <h3>Curated For You</h3>
+                                <a href=#><p>More></p></a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row mt-3 flex-nowrap side-scroll">
-                            <div class="smallCard"></div>
-                            <div class="smallCard"></div>
-                            <div class="smallCard"></div>
-                            <div class="smallCard"></div>
-                            <div class="smallCard"></div>
-                            <div class="smallCard"></div>
-                    </div>
-                    <!-- Latest -->
-                    <div class="row mt-3">
-                        <div class="col-12 d-flex justify-content-between align-items-center">
-                            <h3>Latest</h3>
-                            <a href=#><p>More></p></a>
+                        <div class="row mt-3 flex-nowrap side-scroll">
+                                <div id="anxietyTrigger" class="smallCard"><i class="bi bi-bookmark"></i></i><h3>Anxiety Triggers</h3></div>
+                                <div id="depressionSign" class="smallCard"><i class="bi bi-bookmark"></i></i><h3>Signs of Depression</h3></div>
+                                <div id="stressDown" class="smallCard"><i class="bi bi-bookmark"></i><h3>Stress got you down?</h3></div>
                         </div>
-                    </div>
-                    <div class="row mt-3 flex-nowrap side-scroll">
-                            <div class="smallCard"></div>
-                            <div class="smallCard"></div>
-                            <div class="smallCard"></div>
-                            <div class="smallCard"></div>
-                            <div class="smallCard"></div>
-                            <div class="smallCard"></div>
-                    </div>
-                </div>
-                <!-- Forum -->
-                <div id="forum-screen" class="container-fluid content-box tab-pane fade bg-white">
-                    <!-- Top navigation -->
-                    <div class="row">
-                        <div class="col-12 d-flex justify-content-between border">
-                            <i class="bi bi-gear-fill bigger-icon"></i>
-                            <h3>Inflow</h3>
-                            <i class="bi bi-bell-fill bigger-icon"></i>
+
+                        <div class="row mt-3">
+                            <div class="col-12 d-flex justify-content-center">
+                                <a href="#">Tune your recommendations ></a>
+                            </div>
                         </div>
+
+                        <!-- Latest -->
+                        <div class="row mt-3">
+                            <div class="col-12 d-flex justify-content-between align-items-center">
+                                <h3>Latest</h3>
+                                <a href=#><p>More></p></a>
+                            </div>
+                        </div>
+                        <div class="row mt-3 flex-nowrap side-scroll">
+                                <div id="meditationMonday" class="smallCard"><i class="bi bi-bookmark"></i></i><h3>Meditation Mondays</h3></div>
+                                <div id="thoughtUnravel" class="smallCard"><i class="bi bi-bookmark"></i></i><h3>Unravel Your Thoughts</h3></div>
+                                <div id="stigmaFight" class="smallCard"><i class="bi bi-bookmark"></i><h3>Fighting Stigma</h3></div>
+                        </div>
+
+                        <!-- Topic For You -->
+                        <div class="row mt-3">
+                            <div class="col-12 d-flex justify-content-between align-items-center">
+                                <h3>Topics For You</h3>
+                                <a href=#><p>More></p></a>
+                            </div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <div class="col-12 d-flex flex-wrap topicZone">
+                                <div class="topicSelect"><p>#Stress</p></div>
+                                <div class="topicSelect"><p>#Insomnia</p></div>
+                                <div class="topicSelect"><p>#Isolation</p></div>
+                                <div class="topicSelect"><p>#Energy</p></div>
+                                <div class="topicSelect"><p>#Mindfulness</p></div>
+                                <div class="topicSelect"><p>#Eating Habits</p></div>
+                            </div>
+                        </div>
+
                     </div>
-                    <!-- Search -->
-                    <div class="row my-3 search-bar">
-                        <div class="col-12">
-                            <form>
-                                <div class="input-group mb-3">
-                                  <div class="input-group-prepend">
-                                    <span class="input-group-text"><i class="bi bi-search"></i></span>
-                                  </div>
-                                  <input type="text" class="form-control" placeholder="Explore our library">
+                    <!-- Forum -->
+                    <div id="forum-screen" class="container-fluid content-box tab-pane fade bg-light">
+                        <!-- Top navigation -->
+                        <div class="row">
+                            <div class="col-12 d-flex justify-content-between">
+                                <i class="bi bi-gear-fill bigger-icon"></i>
+                                <h2 class="logo">Inflow</h2>
+                                <i class="bi bi-bell-fill bigger-icon"></i>
+                            </div>
+                        </div>
+                        <!-- Search -->
+                        <div class="row my-3 search-bar">
+                            <div class="col-12">
+                                <form>
+                                    <div class="input-group mb-3">
+                                      <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="bi bi-search"></i></span>
+                                      </div>
+                                      <input type="text" class="form-control" placeholder="Explore our library">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- FAB -->
+                        <button type="button" class="p-0 FAB btn btn-primary rounded-circle"><i class="bigger-icon bi bi-plus"></i></button>
+                        <!-- Discussion Display -->
+                        <div class="row flex-nowrap forum-display">
+                                <div class="p-0 col-12 card forum-card border-0">
+                                        <div class="card-header d-flex bg-white">
+                                            <img class="rounded-circle avatar-box" src="img/avatar-place-holder.jpg">
+                                            <div class="header-text pl-2">
+                                                <h3>Aiden</h3>
+                                                <p class="text-secondary">2h ago</p>
+                                        </div>
+                                        </div>
+                                        <div id="aiden" class="card-body">
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam sapiente enim qui eligendi saepe, dolorem quas quibusdam accusamus. Earum, expedita asperiores? Exercitationem quam architecto atque libero ullam voluptates officia esse?
+                                            </p>
+                                            <p>#sad #anxious #overwhelmed</p>
+                                        </div>
+                                        <div class="card-footer bg-white">
+                                        <div class="icons d-flex justify-content-between">
+                                            <div class="left-icons">
+                                                <i class="bi bi-heart"></i>
+                                                <i class="bi bi-chat"></i>
+                                                <i class="bi bi-patch-minus"></i>
+                                            </div>
+                                            <div class="right-icons">
+                                                <i class="bi bi-bookmark"></i>
+                                            </div>
+                                        </div>
+                                        <p class="mt-3 text-secondary">View 5 comments</p>
+                                        </div>
                                 </div>
-                            </form>
                         </div>
                     </div>
-                    <!-- FAB -->
-                    <button type="button" class="p-0 FAB btn btn-primary rounded-circle"><i class="bigger-icon bi bi-plus"></i></button>
-                    <!-- Discussion Display -->
-                    <div class="row flex-nowrap forum-display">
-                            <div class="p-0 col-12 card forum-card">
-                                    <div class="card-header d-flex">
-                                        <img class="rounded-circle avatar-box" src="img/avatar-place-holder.jpg">
-                                        <div class="header-text pl-2">
-                                            <p>Aiden - Anyone going through this?</p>
-                                            <p class="text-secondary">2h ago</p>
-                                    </div>
-                                    </div>
-                                    <div class="card-body">
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam sapiente enim qui eligendi saepe, dolorem quas quibusdam accusamus. Earum, expedita asperiores? Exercitationem quam architecto atque libero ullam voluptates officia esse?
-                                        </p>
-                                        <p>#sad #anxious #overwhelmed</p>
-                                    </div>
-                                    <div class="card-footer">
-                                    <div class="icons d-flex justify-content-between">
-                                        <div class="left-icons">
-                                            <i class="bi bi-heart"></i>
-                                            <i class="bi bi-chat"></i>
-                                            <i class="bi bi-patch-minus"></i>
-                                        </div>
-                                        <div class="right-icons">
-                                            <i class="bi bi-bookmark"></i>
-                                        </div>
-                                    </div>
-                                    <p class="text-secondary">View 5 comments</p>
-                                    </div>
+                    <!-- Profile -->
+                    <div id="profile-screen" class="container-fluid content-box tab-pane fade bg-light">
+                        <!-- Top navigation -->
+                        <div class="row">
+                            <div class="col-12 d-flex flex-column align-items-center py-3">
+                                <h4>Kerry</h4>
+                                <img class="rounded-circle avatar-box mt-2" src="img/avatar-place-holder.jpg">
                             </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 d-flex justify-content-between border-bottom">
+                                <div class="profile-tab border-bottom border-dark"><p>Journal</p></div>
+                                <div class="profile-tab"><p>Stats</p></div>
+                                <div class="profile-tab"><p>Saved</p></div>
+                            </div>
+                        </div>
+                        <!-- FAB -->
+                        <button type="button" class="p-0 FAB btn btn-primary rounded-circle"><i class="bigger-icon bi bi-plus"></i></button>
+                        <!-- Journal -->
+                        <div class="journal-display mt-5">
+                            <div class="card border-0">
+                                <div class="card-hearder d-flex justify-content-between p-2 bg-white">
+                                    <h6>30th January 2021</h6>
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30.474" height="28.416" viewBox="0 0 30.474 28.416">
+                                        <defs>
+                                          <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+                                            <stop offset="0" stop-color="#ea8b09" stop-opacity="0.392"/>
+                                            <stop offset="1" stop-color="#ea8b09"/>
+                                          </radialGradient>
+                                        </defs>
+                                        <g id="Group_283" data-name="Group 283" transform="translate(-2881.818 -2079)">
+                                          <path id="Path_386" data-name="Path 386" d="M-8427.657,7163.4c-6.089-.37-10.322.248-14.945,5a13.414,13.414,0,0,0-2.631,14.359c1.433,3.069,5.018,7.631,9.728,8.677s12.444-.906,15.161-3.281,4.952-7.6,4.5-12.532S-8421.569,7163.773-8427.657,7163.4Z" transform="translate(11328.077 -5084.315)" fill="url(#radial-gradient)"/>
+                                          <path id="Path_402" data-name="Path 402" d="M-8418.47,7478.274a3.485,3.485,0,0,1,1.835-1,2.006,2.006,0,0,1,1.944,1" transform="translate(11309.399 -5388.816)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5" style="mix-blend-mode: multiply;isolation: isolate"/>
+                                          <path id="Path_404" data-name="Path 404" d="M-8414.69,7478.274a3.485,3.485,0,0,0-1.835-1,2.006,2.006,0,0,0-1.944,1" transform="translate(11318.647 -5388.816)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5" style="mix-blend-mode: multiply;isolation: isolate"/>
+                                          <path id="Path_406" data-name="Path 406" d="M-8421.026,7491.459a11.945,11.945,0,0,1,6.737-2.357,11.718,11.718,0,0,1,7.509,2.357" transform="translate(11311.603 -5394.796)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2.5" style="mix-blend-mode: multiply;isolation: isolate"/>
+                                        </g>
+                                      </svg>                                      
+                                </div>
+                            <div id="thirtyCard" class="card-body p-2">
+                                <p>I'm feeling pretty flat, my stomach is in knots and I just want this feeling to pass...</p>
+                            </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <!-- Profile -->
-                <div id="profile-screen" class="container-fluid content-box tab-pane fade bg-white">
-                    <!-- Top navigation -->
-                    <div class="row">
-                        <div class="col-12 d-flex flex-column align-items-center py-3">
-                            <h4>Kerry</h4>
-                            <img class="rounded-circle avatar-box mt-2" src="img/avatar-place-holder.jpg">
-                        </div>
+            
+            <!-- Setting -->
+            <div id="setting-screen" class="bg-light container-fluid content-box hidden">
+                <!-- Top Navigation -->
+                <div class="row">
+                    <div class="col-12 d-flex align-items-center setting-top">
+                        <i class="bi bi-chevron-compact-left bigger-icon"></i>
+                        <h2>Setting</h2>
                     </div>
-                    <div class="row">
-                        <div class="col-12 d-flex justify-content-between border-bottom">
-                            <div class="profile-tab"><p>Journal</p></div>
-                            <div class="profile-tab"><p>Stats</p></div>
-                            <div class="profile-tab"><p>Saved</p></div>
+                </div>
+                <!-- List Group -->
+                <ul class="list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between bg-light"><p>Account</p><i class="bi bi-chevron-compact-right"></i></li>
+                    <li class="list-group-item d-flex justify-content-between bg-light"><p>Reading Preferences</p><i class="bi bi-chevron-compact-right"></i></li>
+                    <li class="list-group-item d-flex justify-content-between bg-light"><p>Data Security</p><i class="bi bi-chevron-compact-right"></i></li>
+                    <li class="list-group-item d-flex justify-content-between bg-light"><p>Emergency Contact</p><i class="bi bi-chevron-compact-right"></i></li>
+                    <li class="list-group-item d-flex justify-content-between bg-light"><p>Dark Mode</p><div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+                        <label class="custom-control-label" for="darkSwitch"></label>
+                      </div>
+                      <script src="dark-mode-switch.min.js"></script></li>
+                    <li class="list-group-item d-flex justify-content-between bg-light"><p>FAQs</p><i class="bi bi-chevron-compact-right"></i></li>
+                    <li class="list-group-item d-flex justify-content-between bg-light"><p>About Inflow</p><i class="bi bi-chevron-compact-right"></i></li>
+                </ul>
+            </div>
+            <!-- Notifications -->
+
+            <!-- Bottom Navigation -->
+            <div class="container-fluid bottom-navigation border-top bg-light pb-2">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-between">
+            
+                        <div id="home" class="navTab">
+                            <a class="d-flex flex-column align-items-center" data-toggle="tab" href="#home-screen">
+                                <span class="material-icons md-24">
+                                    home
+                                    </span>
+                                <h4>Home</h4>
+                            </a>
                         </div>
-                    </div>
-                    <!-- FAB -->
-                    <button type="button" class="p-0 FAB btn btn-primary rounded-circle"><i class="bigger-icon bi bi-plus"></i></button>
-                    <!-- Journal -->
-                    <div class="journal-display mt-5">
-                        <div class="card">
-                            <div class="card-hearder d-flex justify-content-between p-2">
-                                <h6>31st January 2021</h6>
-                                <i class="bi bi-emoji-smile-upside-down"></i>
-                            </div>
-                        <div class="card-body p-2">
-                            <p>I was doing OK today. Not too bad at all. Though I wish it could have been better.</p>
+            
+                        <div id="forum" class="navTab">
+                            <a class="d-flex flex-column align-items-center" data-toggle="tab" href="#forum-screen">
+                                <span class="material-icons md-24">
+                                    forum
+                                    </span>
+                                <h4>Forum</h4>
+                            </a>
                         </div>
+                        <div id="chat" class="navTab">
+                            <a class="d-flex flex-column align-items-center" data-toggle="tab" href=#>
+                                <span class="material-icons md-24">
+                                    sms
+                                    </span>
+                                <h4>Chat</h4>
+                            </a>
+                        </div>
+                        <div id="profile" class="navTab">
+                            <a class="d-flex flex-column align-items-center" data-toggle="tab" href="#profile-screen">
+                                <span class="material-icons md-24">
+                                    account_circle
+                                    </span>
+                                <h4>Profile</h4>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-        
-
-        <!-- Setting -->
-        <div id="setting-screen" class="container-fluid content-box hidden bg-white">
-            <!-- Top Navigation -->
-            <div class="row">
-                <div class="col-12 border d-flex align-items-center setting-top">
-                    <i class="bi bi-chevron-compact-left bigger-icon"></i>
-                    <h3>Setting</h3>
-                </div>
-            </div>
-
-            <!-- List Group -->
-            <ul class="list-group-flush">
-                <li class="list-group-item d-flex justify-content-between bg-white"><p>Account</p><i class="bi bi-chevron-compact-right"></i></li>
-                <li class="list-group-item d-flex justify-content-between bg-white"><p>Reading Preferences</p><i class="bi bi-chevron-compact-right"></i></li>
-                <li class="list-group-item d-flex justify-content-between bg-white"><p>Data Security</p><i class="bi bi-chevron-compact-right"></i></li>
-                <li class="list-group-item d-flex justify-content-between bg-white"><p>Emergency Contact</p><i class="bi bi-chevron-compact-right"></i></li>
-                <li class="list-group-item d-flex justify-content-between bg-white"><p>Dark Mode</p><div class="custom-control custom-switch">
-                    <input type="checkbox" class="custom-control-input" id="darkSwitch" />
-                    <label class="custom-control-label" for="darkSwitch"></label>
-                  </div>
-                  <script src="dark-mode-switch.min.js"></script></li>
-                <li class="list-group-item d-flex justify-content-between bg-white"><p>FAQs</p><i class="bi bi-chevron-compact-right"></i></li>
-                <li class="list-group-item d-flex justify-content-between bg-white"><p>About Inflow</p><i class="bi bi-chevron-compact-right"></i></li>
-            </ul>
         </div>
-
-        <!-- Notifications -->
-    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
