@@ -11,6 +11,9 @@
     <link rel="stylesheet" type="text/css" href="css/master.css">
     <link rel="stylesheet" type="text/css" href="css/dark-mode.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
         <div class="phoneScreen">
@@ -246,8 +249,8 @@
                 <div class="row">
                     <div class="col-12 d-flex justify-content-between">
             
-                        <div id="home" class="navTab">
-                            <a class="d-flex flex-column align-items-center" data-toggle="tab" href="#home-screen">
+                        <div id="home" class="nav-item active">
+                            <a class="d-flex flex-column align-items-center nav-link" data-toggle="tab" href="#home-screen">
                                 <span class="material-icons md-24">
                                     home
                                     </span>
@@ -255,24 +258,24 @@
                             </a>
                         </div>
             
-                        <div id="forum" class="navTab">
-                            <a class="d-flex flex-column align-items-center" data-toggle="tab" href="#forum-screen">
+                        <div id="forum" class="nav-item">
+                            <a class="d-flex flex-column align-items-center nav-link" data-toggle="tab" href="#forum-screen">
                                 <span class="material-icons md-24">
                                     forum
                                     </span>
                                 <h4>Forum</h4>
                             </a>
                         </div>
-                        <div id="chat" class="navTab">
-                            <a class="d-flex flex-column align-items-center" data-toggle="tab" href=#>
+                        <div id="chat" class="nav-item">
+                            <a class="d-flex flex-column align-items-center nav-link" data-toggle="tab" href=#>
                                 <span class="material-icons md-24">
                                     sms
                                     </span>
                                 <h4>Chat</h4>
                             </a>
                         </div>
-                        <div id="profile" class="navTab">
-                            <a class="d-flex flex-column align-items-center" data-toggle="tab" href="#profile-screen">
+                        <div id="profile" class="nav-item">
+                            <a class="d-flex flex-column align-items-center nav-link" data-toggle="tab" href="#profile-screen">
                                 <span class="material-icons md-24">
                                     account_circle
                                     </span>
@@ -284,9 +287,6 @@
             </div>
         </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="dark-mode-switch.js"></script>
     <script src="index.js"></script>
 </html>
